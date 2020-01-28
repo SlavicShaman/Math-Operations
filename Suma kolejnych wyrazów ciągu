@@ -1,0 +1,18 @@
+print("a1= ")
+a1 = int(input())
+print("an= ")
+an = int(input())
+print("What do you want do divide by? ")
+div = int(input())
+print("What do you want the remainder to be?")
+rem = int(input())
+
+x = range(a1,an)
+result = []
+
+
+for n in x:
+    if n%div==rem:
+        result.append(n)
+
+print(sum(result))
